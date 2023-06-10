@@ -1,4 +1,4 @@
-sselect * from employees;
+select * from employees;
 
 -- IN works as or logic
 select * from EMPLOYEES
@@ -26,5 +26,5 @@ where DEPARTMENT_ID is NULL;
 
 
 -- Display all information for employees whose is department id is NOT Null
-select * from EMPLOYEES
+select  * from EMPLOYEES
 where DEPARTMENT_ID is NOT NULL;
